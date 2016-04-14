@@ -149,7 +149,7 @@ public class Submission {
     @Override
     public String toString() {
         String tehdyt = tehdyt();
-        return "Viikko "+week +": tehtyjä tehtäviä yhteensä: "+this.amount+", aikaa kului "+ this.hours +"tuntia, tehdyt tehtävät:" + tehdyt;
+        return "Viikko "+week +": tehtyjä tehtäviä yhteensä: "+this.amount+", aikaa kului "+ this.hours +"tuntia, tehdyt tehtävät: " + tehdyt;
     }
 
 
