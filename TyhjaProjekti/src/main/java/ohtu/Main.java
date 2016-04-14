@@ -14,7 +14,7 @@ public class Main {
         if ( args.length>0) {
             studentNr = args[0];
         }
-
+        System.out.println("Opiskelijanumero: "+studentNr);
         String url = "http://ohtustats2016.herokuapp.com/students/"+studentNr+"/submissions";
 
         HttpClient client = new HttpClient();
